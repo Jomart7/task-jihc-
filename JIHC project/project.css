@@ -1,0 +1,238 @@
+:root{
+    --blue-text:#2774CD;
+    --blue-bckgr:#EAF4FF;
+    --gray:#999999;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.jihc{
+    display: flex;
+}
+
+.left-page{
+    width: 356px;
+    min-height: 100vh;
+    border-radius: 0 32px 32px 0;
+    background-color: white;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.jihc-logo {
+    width: 68px;
+    height: 68px;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17vh;
+}
+
+.fir-bor{
+    z-index: 100;
+    height: .7px;
+    background-color: #999999;
+    width: 356px;
+    position: relative;
+    right: 15px;
+}
+
+.sec-bor{
+    border-bottom: 2px solid #F5F5F5;
+    width: 307px;
+}
+
+
+.left2{
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-text1{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.left-text2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pro-chel{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: var(--blue-text);
+    background-color: var(--blue-bckgr);
+    height: 44px;
+    width: 310px;
+    border-radius: 8px;
+    gap: 5%;
+    padding: 0 3%;
+}
+
+.left-text2{
+    color: var(--gray);
+}
+
+.portfolio{
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.pc{
+    height: 20px;
+    width: 20px;
+}
+
+.right-page{
+    width: 1180px;
+    padding: 0 1.6%;
+}
+
+.right-little-img{
+    background-image: url('https://img1.akspic.ru/attachments/originals/9/3/5/4/2/124539-predprinimatel-kostyum-galstuk-platezh-rabota-3000x2000.jpg');
+    height: 52px;
+    width: 52px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+.first-li{
+    height: 40px;
+    width: 100px;
+    background-color: var(--blue-bckgr);
+    color: var(--blue-text) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17vh;
+    width: 100%;
+}
+
+.rh-logo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.rh-nav{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.rh-nav li{
+    list-style: none;
+}
+
+.rh-nav li a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.razrabotka{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.main-text{
+    font-size:48px;
+    font-weight: 700;
+}
+
+.texts p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 474px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.texts p span{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.btn{
+    height: 40px;
+    width: 124px;
+    background-color: var(--blue-text);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+}
+
+.seven{
+    height: 590px;
+    width: 444px;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 16px;
+    padding: 2% 3%;
+}
+
